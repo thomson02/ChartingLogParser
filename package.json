@@ -1,0 +1,22 @@
+{
+  "name": "ChartingLogParser",
+  "version": "1.0.0",
+  "description": "Utility to parse logs.",
+  "main": "charting-log-parser.js",
+  "scripts": {
+    "test": "node charting-log-parser.js > log.csv"
+  },
+  "keywords": [
+    "log",
+    "parser"
+  ],
+  "author": "thomson02",
+  "license": "GPL",
+  "dependencies": {
+    "fs": "0.0.2",
+    "n-readlines": "^0.2.2",
+	"canvas": "*",
+	"nchart": "*",
+	"underscore": "*"
+  }
+}
